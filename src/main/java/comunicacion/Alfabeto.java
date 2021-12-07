@@ -46,6 +46,7 @@ public class Alfabeto extends Pictograma {
 		for (int i = 0; i < letras.length; i++) {
 			if (i == letras.length-1) {
 				ret += letras[i];
+				break;
 			}
 			ret += letras[i] + ", ";
 		}

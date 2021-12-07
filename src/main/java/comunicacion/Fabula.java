@@ -45,7 +45,7 @@ public class Fabula extends Escrito {
 	@Override
 	public String toString() {
 		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + 
-				getEnsenanza();
+				"\n" + getEnsenanza();
 	}
 
 }
